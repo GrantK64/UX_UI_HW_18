@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Economica', sans-serif;
+}
+
+.nav li{
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 86px;
+    padding-bottom: 0;
+    font-family: 'Economica', sans-serif;
+}
+
+#heroImg {
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(186,12,47,.40));
+    color: white;
+    max-height: 413px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    font-family: 'Caveat', cursive;
+    font-size: 150px;
+    padding: 0px;
+}
+
+.bottomLeft {
+    font-family: 'Economica', sans-serif;
+    font-size: 35px;
+    align-self: flex-end;
+}
+
+.topRight {
+    font-family: 'Economica', sans-serif;
+    font-size: 35px;
+    align-self: flex-start;
+}
+
+#footer {
+    background-color: black;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Economica', sans-serif;
+}
+
+.foot li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-bottom: 0;
+    font-family: 'Economica', sans-serif;
+}
+
+h2{
+    color: white;
+    font-size: 45px;
+    font-family: 'Economica', sans-serif;
+    align-self: flex-start;
+}
+
+.aboutInfo{
+    color: white;
+    font-size: 35px;
+    font-family:'Economica', sans-serif;
+    max-width: 900px;
+    align-self: center;
+    
+}
+
+#about{
+    display: flex;
+}
